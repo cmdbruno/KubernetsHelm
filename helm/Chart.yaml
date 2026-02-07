@@ -4,3 +4,8 @@ description: Um Helm Chart, para efetuar deploy dos micros-serviços do alura fo
 type: application
 version: 1.0.0
 appVersion: 0.0.1
+
+dependencies:
+  - name: mysql
+    version: "11.1.7"
+    repository: https://charts.bitnami.com/bitnami
